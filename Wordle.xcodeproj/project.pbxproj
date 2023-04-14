@@ -42,6 +42,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F49670EB29E9A4940094BCD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4CBB3F027B2EEBD00132C63 /* ContentView.swift */,
+				F4DF467427B6E0360037888F /* BannerView.swift */,
+				F4CBB40027B2F7A200132C63 /* KeyboardView.swift */,
+				F4CBB40227B2FD2400132C63 /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F4CBB3E227B2EEBD00132C63 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				F4CBB3EE27B2EEBD00132C63 /* WordleApp.swift */,
-				F4CBB3F027B2EEBD00132C63 /* ContentView.swift */,
+				F49670EB29E9A4940094BCD8 /* Views */,
 				F4CBB3FE27B2F12500132C63 /* Model.swift */,
-				F4CBB40027B2F7A200132C63 /* KeyboardView.swift */,
-				F4CBB40227B2FD2400132C63 /* GameView.swift */,
 				F4DF467227B6C2960037888F /* ViewModel.swift */,
-				F4DF467427B6E0360037888F /* BannerView.swift */,
 				F4CBB3F227B2EEBD00132C63 /* Assets.xcassets */,
 				F4CBB3F427B2EEBD00132C63 /* Preview Content */,
 			);
